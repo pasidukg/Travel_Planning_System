@@ -1,0 +1,112 @@
+/* General Styles */
+.aboutus-container {
+    background: linear-gradient(135deg, #f7f8fc, #e2ebf5);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header */
+.aboutus-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.aboutus-header p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Mission Section */
+.aboutus-mission h2 {
+    font-size: 2rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.aboutus-mission p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Chairman Section */
+.aboutus-chairman {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.chairman-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.chairman-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 45px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chairman-info h3 {
+    font-size: 1.8rem;
+    color: #2a9d8f;
+    margin-bottom: 10px;
+}
+
+.chairman-info p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.aboutus-contact h2 {
+    font-size: 2rem;
+    color: #34495e;
+    margin-top: 40px;
+}
+
+.aboutus-contact p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+}
+
+strong {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .aboutus-container {
+        padding: 20px;
+    }
+
+    .chairman-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .chairman-photo {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

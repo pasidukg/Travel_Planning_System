@@ -1,0 +1,58 @@
+/* General Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px; /* Reduced padding to shrink the height */
+  background-color: #1e1b74; /* Navy blue */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 50px;
+  
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Gold color on hover */
+}
+
+/* User Icon Container */
+.user-icon {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}

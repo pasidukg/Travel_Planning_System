@@ -1,0 +1,77 @@
+.hotel-register-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.hotel-register-left {
+    flex: 1;
+    background: url('/public/assets/hotel.jpg') no-repeat center center/cover;
+}
+
+.hotel-register-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.hotel-register-box {
+    width: 450px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hotel-register-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    border-color: #00aaff;
+}
+
+.btn-register-hotel {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-register-hotel:hover {
+    background-color: #0077cc;
+}

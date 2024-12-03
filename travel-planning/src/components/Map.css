@@ -1,0 +1,35 @@
+/* Main container for the map page */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header Styling */
+.map-header {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Centered Map Container */
+.map-iframe-container {
+  width: 100%;
+  max-width: 1200px; /* Restrict max width to make it more readable */
+  height: 500px; /* Set a fixed height for the map */
+  margin-top: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners */
+  overflow: hidden;
+}
+
+/* Optional: Improve iframe responsiveness */
+.map-iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
